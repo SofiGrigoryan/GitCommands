@@ -1,4 +1,35 @@
-TELL GIT WHO YOU ARE
+-TELL GIT WHO YOU ARE
 git config --global user.name "SofiGrigoryan"
 git config --global user.email sophie.grigoryan.itc@gmail.com
-
+-CREATE A NEW LOCAL REPOSITORY
+get init
+-CHECK OUT A  REPOSITORY
+git clone /path/to/repository
+git clone username@host:/path/to/repository
+-ADD FILES
+git add <filename>
+git add *
+-COMMIT
+git commit -m "Commit message"
+git commit -a
+-PUSH
+git push origin master
+-STATUS
+git status
+-CONNECT TO A REMOTE REPOSITORY
+git remote add origin <server>
+-BRANCHES
+git checkout -b <branchname> (create a new branch and switch to it)
+git checkout <branchname> (switch from one branch to another)
+git branch (list branches)
+git branch -d <branchname> (delete the feature branch)
+git push origin <branchname> (push the branch to your remote repository)
+git push --all origin (push all branches to your remote repository)
+git push origin :<branchname> (delete a branch on your remote repository)
+-UPDATE FROM THE REMOTE REPOSITORY
+git pull
+git merge <branchname>
+git diff
+git diff ,sourcebranch> <targetbranch>
+-UNDO LOCAL CHANGES
+git checkout --<filename>
