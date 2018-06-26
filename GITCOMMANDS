@@ -1,0 +1,4 @@
+TELL GIT WHO YOU ARE
+git config --global user.name "SofiGrigoryan"
+git config --global user.email sophie.grigoryan.itc@gmail.com
+
